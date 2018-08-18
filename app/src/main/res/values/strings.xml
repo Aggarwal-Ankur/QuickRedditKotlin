@@ -1,3 +1,94 @@
 <resources>
     <string name="app_name">QuickRedditKotlin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_main_page">Reddit Main Page</string>
+    <string name="action_feed">Subreddit Feed</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_add_subreddit">Add Subreddit</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hot">HOT</string>
+    <string name="text_new">NEW</string>
+    <string name="text_top">TOP</string>
+    <string name="comments_text">Comments</string>
+    <string name="score_text">Score :</string>
+
+    <!--Widget-->
+    <string name="widget_title">Reddit Widget</string>
+    <string name="config_activity_title">Choose Subreddit For Widget</string>
+    <string name="subreddit_choice">Chosen subreddit : </string>
+
+
+    <!-- Error/Info tasks -->
+    <string name="network_error_toast">Network Error! Please check your connection</string>
+    <string name="service_error_toast">Error fetching data!</string>
+    <string name="comments_error_toast">Error fetching comments!</string>
+    <string name="empty_query">Empty Search String !</string>
+    <string name="error_fetching_subreddits">Error fetching subreddit list</string>
+
+
+    <!--Content Descriptions-->
+    <string name="description_detail_root">This is the root view to display details</string>
+    <string name="description_detail_recycler">This displays the details of a selected reddit post</string>
+    <string name="description_main_recycler">This contains the list of reddit posts</string>
+    <string name="description_config_root">This contains the list of subscribed subreddits</string>
+    <string name="widget_list_description">Shows the list which can be tracked by widget</string>
+    <string name="description_search_list">Contains the list of subreddits fetched from search</string>
+    <string name="description_comment_info">Displays the author and time of comment</string>
+    <string name="description_comment_body">Displays the comment</string>
+    <string name="description_tab_layout">Displays the Hot, New and Top tabs</string>
+    <string name="description_ad_layout">Displays the banner ad</string>
+    <string name="description_detail_toolbar">Displays the share button</string>
+    <string name="description_detail_subreddit">Displays the name of subreddit</string>
+    <string name="description_detail_domain">Displays the domain of post</string>
+    <string name="description_detail_title">Displays the title of post</string>
+    <string name="description_detail_author">Displays the author of post</string>
+    <string name="description_detail_time">Displays the time of post</string>
+    <string name="description_detail_image">Displays the image of post, if any</string>
+    <string name="description_detail_play_button">Displayed if the video can be played in an external player</string>
+    <string name="description_detail_num_comments">Displays the number of comments on this post</string>
+    <string name="description_detail_score">Displays the score i.e. upvotes minus downvotes</string>
+    <string name="description_detail_comments">Indicates that the comments are being fetched</string>
+    <string name="description_left_nav_holder">Holds the navigation items on left bar</string>
+    <string name="description_left_nav_padding">Padding navigation items on left bar</string>
+    <string name="description_left_nav_plus_icon">Plus icon on left bar</string>
+    <string name="description_left_nav_itemname">Item name of navigation items on left bar</string>
+    <string name="description_img_preview">Image Preview for the reddit post item</string>
+    <string name="description_topbar">Contains the subreddit name, time and domain of reddit post item</string>
+    <string name="description_title_item">Title of the reddit post item</string>
+    <string name="description_bottombar">Contains the number of comments and score of reddit post item</string>
+    <string name="description_search_suggestion">Search suggestion item for the search query</string>
+
+
+    <!--Settings-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_landing_label">Landing Page</string>
+    <string name="pref_landing_label_main" >Main Page</string>
+    <string name="pref_landing_label_feed" >Subreddit Feed</string>
+    <string name="pref_landing_key" translatable="false">landing_page</string>
+    <string name="pref_landing_main" translatable="false">main_page</string>
+    <string name="pref_landing_feed" translatable="false">subreddit_feed</string>
+
+    <string name="pref_widget_display_label">Default Widget Display</string>
+    <string name="pref_widget_display_label_hot" >HOT</string>
+    <string name="pref_widget_display_label_new" >NEW</string>
+    <string name="pref_widget_display_label_top" >TOP</string>
+    <string name="pref_widget_display_key" translatable="false">widget_display</string>
+    <string name="pref_widget_display_hot" translatable="false">0</string>
+    <string name="pref_widget_display_new" translatable="false">1</string>
+    <string name="pref_widget_display_top" translatable="false">2</string>
+
+    <string name="pref_sync_frequency_key" translatable="false">sync_frequency</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+    <!--Misc Strings-->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="search_text_hint">Search for subreddits</string>
+    <string name="loading_comments">Loading Comments...</string>
+    <string name="share_reddit_post">Share Reddit Post with...</string>
+    <string name="subscribe">Subscribe to</string>
+    <string name="cancel">Cancel</string>
 </resources>

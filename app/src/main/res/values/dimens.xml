@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">24dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+
+    <dimen name="left_nav_vertical_margin">24dp</dimen>
+    <dimen name="left_nav_subreddit_padding">32dp</dimen>
+
+    <dimen name="search_box_height">56dp</dimen>
+    <dimen name="search_dialog_width">400dp</dimen>
+
+
+    <!--Paddings-->
+    <dimen name="horizontal_padding">12dp</dimen>
+    <dimen name="vertical_padding">4dp</dimen>
+    <dimen name="primary_text_padding_vertical">4dp</dimen>
+    <dimen name="primary_text_padding_horizontal">12dp</dimen>
+    <dimen name="secondary_text_padding_vertical">2dp</dimen>
+    <dimen name="secondary_text_padding_horizontal">12dp</dimen>
+
+
+    <!--Image Sizes-->
+    <dimen name="preview_img_height">48dp</dimen>
+    <dimen name="preview_img_width">48dp</dimen>
+    <dimen name="detail_img_height">240dp</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="primary_textsize">16sp</dimen>
+    <dimen name="secondary_textsize">10sp</dimen>
+    <dimen name="search_box_textsize">20sp</dimen>
+    <dimen name="selcted_item_textsize">18sp</dimen>
+    <dimen name="search_suggestion_textsize">16sp</dimen>
+
+</resources>
