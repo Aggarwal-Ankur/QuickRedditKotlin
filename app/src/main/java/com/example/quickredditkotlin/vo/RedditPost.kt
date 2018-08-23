@@ -4,7 +4,7 @@ import android.arch.persistence.room.Entity
 import android.arch.persistence.room.ColumnInfo
 import org.jetbrains.annotations.NotNull
 
-@Entity(tableName = "subreddits", primaryKeys = ["id"/*, "title"*/])
+@Entity(tableName = "reddit_post", primaryKeys = ["id"/*, "title"*/])
 data class RedditPost(
         val id : Int,
         @NotNull

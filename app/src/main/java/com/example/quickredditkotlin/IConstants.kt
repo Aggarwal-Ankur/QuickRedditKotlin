@@ -1,6 +1,12 @@
 package com.example.quickredditkotlin
 
 class IConstants {
+    class DB{
+        companion object {
+            const val DATABASE_NAME = "sunflower-db"
+        }
+    }
+
     class IDENTIFFIERS {
         companion object {
             @JvmField val ACTION = "action"
