@@ -9,6 +9,9 @@ buildscript {
         espressoVersion = "3.0.2"
         navigationVersion = "1.0.0-alpha01"
         constraintLayoutVersion = "1.1.2"
+        lifecycleVersion = "1.1.1"
+        roomVersion = "1.1.1"
+
     }
     repositories {
         google()

@@ -36,4 +36,12 @@ dependencies {
     implementation 'android.arch.navigation:navigation-fragment:' + rootProject.navigationVersion
     implementation 'android.arch.navigation:navigation-ui:' + rootProject.navigationVersion
 
+    //Room
+    implementation 'android.arch.persistence.room:runtime:' + rootProject.roomVersion
+    annotationProcessor 'android.arch.persistence.room:compiler:' + rootProject.roomVersion
+
+    //Lifecycle Aware Components
+    implementation 'android.arch.lifecycle:extensions:' + rootProject.lifecycleVersion
+    annotationProcessor 'android.arch.lifecycle:compiler:' + rootProject.lifecycleVersion
+
 }
