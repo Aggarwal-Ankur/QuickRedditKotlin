@@ -3,7 +3,7 @@ package com.example.quickredditkotlin
 class IConstants {
     class DB{
         companion object {
-            const val DATABASE_NAME = "sunflower-db"
+            @JvmField val DATABASE_NAME = "reddit-db"
         }
     }
 
